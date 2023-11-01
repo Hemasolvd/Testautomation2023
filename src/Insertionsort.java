@@ -1,6 +1,6 @@
 public class Insertionsort {
     public static void main(String[] args) {
-        int arr[] = {15,13,34,89,1,3,12};
+        int arr[] = {15, 13, 34, 89, 1, 3, 12};
         int length = arr.length;
         System.out.print("Unsorted array  ::");
         for (int i = 0; i < length; i++)
