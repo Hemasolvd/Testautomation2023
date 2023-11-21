@@ -1,20 +1,21 @@
-import java util.objects;
-Public abstract class Person {
-    Private String FirstName;
-   // Private String Lastname;
+public class Person {
+    private String fname;
+    private String lname;
+    private String mobile;
 
-    Public  Person(String FirstName)
-    //String Lastname)
-    {
-         this.FirstName = FirstName;
-     //    this.Lastname = Lastname;
+    public Person(String fname, String lname, String mobile) {
+        this.fname = fname;
+        this.lname = lname;
+        this.mobile = mobile;
+    }
+    public String getFname() {
+        return fname;
+    }
 
+    public String getLname() {
+        return lname;
     }
- Public String getFirstName()
-    {
-        return FirstName;
+    public String getMobile() {
+        return mobile;
     }
-    Public void SetFirstName(String FirstName)
-        this.FirstName = FirstName;
 }
-
